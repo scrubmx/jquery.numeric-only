@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Numeric Only Plugin Example</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+
+          <h1 class="page-header">jQuery Numeric Only Plugin</h1>
+
+          <input type="text" id="test-input">
+
+        </div><!-- col-sm-10 -->
+      </div><!-- row -->
+    </div><!-- container -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/jquery.numeric-only.js"></script>
+    <script>
+      (function($){
+
+        $('#test-input').numericOnly();
+
+      })(jQuery);
+    </script>
+  </body>
+</html>
